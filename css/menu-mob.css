@@ -1,0 +1,107 @@
+
+
+/* Nav menu */
+.menu_mob{
+    width: 100%;
+    display: none;
+    height: 29%;
+    position: fixed;
+    top: 85px;
+    right: 0.5px;
+    background-color: #ffffff;
+    overflow: hidden;
+    
+}
+
+.mob a{
+    display: block;
+    padding: 30.5px;
+    border: thin solid rgb(247, 245, 245);
+    font-size: 16px;
+    color: black;
+    font-family: var(--circular);
+
+}
+
+.menu_mob{
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+/* Menu Icon */
+
+.hamb{
+    cursor: pointer;
+    display: none;
+    padding:  15px;
+    margin-left: 30px;
+    margin-top: 19px;
+}
+
+
+.hamb-line {
+    background:rgb(128, 108, 216);
+    display: block;
+    height: 2px;
+    display: none;
+    position: relative;
+    width: 24px;
+    
+}
+
+.hamb-line::before,
+.hamb-line::after{
+    background:rgb(128, 108, 216);
+    content: '';
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before{
+    top: 5px;
+}
+
+.hamb-line::after{
+    top: -5px;
+}
+
+
+.side-menu {
+    display: none;
+}
+
+/* Toggle menu icon */
+
+.side-menu:checked ~ nav{
+    max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top:0;
+
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top:0;
+}
+
+@media all and (max-width: 599px) {
+    .menu_mob{
+        display: block;
+    }
+    .hamb{
+        display: block;
+    }
+    .hamb-line{
+        display: block;
+    }
+    
+}

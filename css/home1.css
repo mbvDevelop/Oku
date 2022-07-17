@@ -1,0 +1,224 @@
+/* HOME */
+
+.container{
+    width: 100%;
+    height: 86vh;
+    background-image: url(../img/ilus3.png);
+    background-position:53% 22%;
+    background-size: 490px;
+    background-repeat: no-repeat;
+}
+.info{
+    width: 45%;
+    padding: 25px 30px;
+    height: 70px;
+    background-color: rgb(222, 215, 240);
+    margin-left: 33%;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+.tlt{
+    font-size: 18px;
+    font-family: "circular";
+}
+.video{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    margin-left: 22%;
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+}
+.video iframe{
+    margin-left: 5%;
+    border-radius: 5px;
+    border:8px solid rgba(193, 199, 235, 0.863);
+}
+.redirection{
+    margin-left: 48%;
+    margin-top: 16%;
+
+}
+.main-button a{
+    font-size: 16px;
+}
+.size{
+    width: 145px;
+    height: 45px;
+}
+@media all and (min-width:1200px) and (max-width: 1919px){
+    .info{
+        width: 35%;
+        height: 55px;
+        padding: 19px 25px;
+    }
+    .tlt{
+        font-size: 16px;
+    }
+    .container{
+        height: 97vh;
+        background-position:56% 24%;
+        background-size: 390px;
+    }
+    .video{
+        margin-top: 5%;
+    }
+    .video iframe{
+        width: 50%;
+        height: 220px;
+    }
+    .redirection{
+        margin-top: 19%;
+        margin-left: 49%;
+    }
+    .size{
+        width: 135px;
+        height: 45px;
+    }
+}
+@media all and (min-width: 960px) and (max-width: 1199px) { 
+    .info{
+        width: 35%;
+        height: 55px;
+        padding: 19px 25px;
+        margin-top: 2%;
+    }
+    .tlt{
+        font-size: 16px;
+    }
+    .container{
+        height: 56.5vh;
+        background-position:62% 24%;
+        background-size: 420px;
+    }
+    .video{
+        width: 73%;
+        margin-top: 7%;
+    }
+    .video iframe{
+        width: 58%;
+        height: 220px;
+    }
+    .redirection{
+        margin-top: 27%;
+        margin-left: 51%;
+    }
+    .size{
+        width: 130px;
+        height: 42px;
+    }
+}
+    
+@media all and (min-width: 768px) and (max-width: 958px) {
+    .info{
+        width: 35%;
+        height: 55px;
+        padding: 19px 25px;
+        margin-top: 0%;
+    }
+    .tlt{
+        font-size: 16px;
+    }
+    .container{
+        height: 56vh;
+        background-position:67% 18%;
+        background-size: 360px;
+    }
+    .video{
+        width: 70%;
+        margin-top: 7%;
+        margin-left: 25%;
+    }
+    .video iframe{
+        width: 50%;
+        height: 180px;
+    }
+    .redirection{
+        margin-top: 29%;
+        margin-left: 52%;
+    }
+    .size{
+        width: 125px;
+        height: 42px;
+    }
+}
+    
+@media all and (min-width: 599px) and (max-width: 768px){
+    .info{
+        width: 35%;
+        height: 55px;
+        padding: 19px 25px;
+        margin-top: 1%;
+        margin-left: 35%;
+    }
+    .tlt{
+        font-size: 16px;
+    }
+    .container{
+        height: 77.3vh;
+        background-position:72% 17%;
+        background-size: 380px;
+    }
+    .video{
+        width: 90%;
+        display: block;
+        margin-top: 10%;
+        margin-left: 35%;
+    }
+    .video iframe{
+        width: 50%;
+        height: 170px;
+        margin-bottom: 3%;
+    }
+    .redirection{
+        margin-top: 33%;
+        margin-left: 53%;
+    }
+    .size{
+        width: 120px;
+        height:42px ;
+    }
+
+}
+    
+@media all and (max-width: 479px) {
+    .info{
+        width: 50%;
+        height: 55px;
+        padding: 11px 17px;
+        margin-top: 1%;
+        margin-left: 28%;
+    }
+    .tlt{
+        font-size: 14px;
+    }
+    .container{
+        height: 77.3vh;
+        background-position:72% 17%;
+        background-size: 250px;
+    }
+    .video{
+        width: 80%;
+        display: block;
+        margin-top: 8%;
+        margin-left: 20%;
+    }
+    .video iframe{
+        width: 80%;
+        height: 150px;
+        margin-bottom: 12%;
+    }
+    .redirection{
+        margin-top: 68%;
+        margin-left: 42%;
+    }
+    .size{
+        width: 105px;
+        height:37px ;
+    }
+    .size a{
+        font-size: 14px;
+    }
+        
+}   
