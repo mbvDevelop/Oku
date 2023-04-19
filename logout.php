@@ -5,5 +5,5 @@
 
   session_destroy();
 
-  header('Location: http://localhost/full-stack-proyect/');
+  header('Location: http://localhost/full-stack-proyect1/');
 ?>

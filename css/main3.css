@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Reglas generales */
@@ -14,12 +13,14 @@ html {
     scroll-behavior: smooth;
 }
 
-ul{
+ul {
     list-style: none;
 }
-li{
+
+li {
     list-style: none;
 }
+
 @font-face {
     font-family: "Steinbeck";
     src: url(../fonts/Steinbeck\ Demo\ Regular.otf)
@@ -52,31 +53,34 @@ a {
     --steinbeck: "steinbeck";
     --rubik: "Rubik";
     --background: #f3f3f7;
-    --morado:rgb(148, 138, 243);
+    --morado: rgb(148, 138, 243);
 }
 
- 
-.main-button {background-image: linear-gradient(to right, #6363d3 0%, #1e287c  51%, #5454ee  100%)}
-.main-button {
-   text-align: center;
-   font-family: "circular";
-   transition: 0.5s;
-   border-radius: 35px;
-   background-size: 200% auto;
-   color: white;
-   display: block;
-   cursor: pointer;
-   border-bottom: 5px solid rgb(148, 138, 243);
-   border-right: 5px solid rgb(148, 138, 243);
-   border-left: 5px solid rgb(148, 138, 243);
-   border-top: 5px solid rgb(148, 138, 243);
- }
 
- .main-button:hover {
-   background-position: right center; 
-   color: #fff;
-   text-decoration: none;
- }
+.main-button {
+    background-image: linear-gradient(to right, #6363d3 0%, #1e287c 51%, #5454ee 100%)
+}
+
+.main-button {
+    text-align: center;
+    font-family: "circular";
+    transition: 0.5s;
+    border-radius: 35px;
+    background-size: 200% auto;
+    color: white;
+    display: block;
+    cursor: pointer;
+    border-bottom: 5px solid rgb(148, 138, 243);
+    border-right: 5px solid rgb(148, 138, 243);
+    border-left: 5px solid rgb(148, 138, 243);
+    border-top: 5px solid rgb(148, 138, 243);
+}
+
+.main-button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 .main-button a {
@@ -130,9 +134,11 @@ a {
     margin-bottom: 1%;
     margin-right: 34%;
 }
-.logo-aside2{
+
+.logo-aside2 {
     display: none;
 }
+
 .workspace {
     width: 80%;
     height: 75px;
@@ -180,15 +186,18 @@ a {
 .nav p {
     margin-left: 12%;
 }
-.red{
+
+.red {
     color: red;
 }
+
 .color {
     color: var(--morado);
     transition: all 0.5s;
 }
+
 .count p {
-    font-family: var(--rubik) ;
+    font-family: var(--rubik);
 }
 
 .hover {
@@ -248,33 +257,36 @@ a {
 
 .search-bar {
     width: 100%;
-    height: 11vh;
+    height: 13vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.buscador {
-    width: 100%;
-    height: 100%;
+.resultados {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+    position: fixed;
+    top: 86px;
+    left: 689px;
+    width: 822px;
+    border-radius: 10px;
 }
-
-.buscador form {
+.buscador{
     width: 100%;
-    height: 100%;
+    height: 20px;
 }
-
 .buscador input {
     width: 45%;
     height: 40px;
     background-color: rgba(236, 233, 233, 0.295);
     box-shadow: 0px 6px 24px 1px #f5eeee00;
-    border-radius: 5px;
-    margin-left: 35%;
-    margin-top: 1.5%;
-    border: none;
-    padding: 0px 20px;
-    border: thin solid rgb(204, 198, 198);
+    border-radius: 5px!important;
+    margin-left: 35%!important;
+    margin-top: 1%!important;
+    border: none!important;
+    padding: 0px 20px!important;
+    border: thin solid rgb(204, 198, 198)!important;
 }
 
 input:focus {
@@ -298,7 +310,8 @@ input:focus {
     cursor: pointer;
     border-radius: 50%;
 }
-.logout{
+
+.logout {
     width: 200px;
     height: 70px;
     position: fixed;
@@ -315,7 +328,7 @@ input:focus {
     opacity: 0;
 }
 
-.logout-block{
+.logout-block {
     opacity: 1;
 }
 
@@ -382,435 +395,526 @@ footer {
 }
 
 
-@media all and (min-width:1200px) and (max-width: 1919px){
-    .main-button{
+@media all and (min-width:1200px) and (max-width: 1919px) {
+    .main-button {
         border-bottom: 4px solid rgb(148, 138, 243);
-        border-right:4px solid rgb(148, 138, 243);
-        border-left:4px solid rgb(148, 138, 243);
-        border-top:4px solid rgb(148, 138, 243);
+        border-right: 4px solid rgb(148, 138, 243);
+        border-left: 4px solid rgb(148, 138, 243);
+        border-top: 4px solid rgb(148, 138, 243);
     }
 
-    .footer_content{
+    .footer_content {
         width: 100%;
     }
-    .legal{
+
+    .legal {
         width: 90%;
         margin-left: 9%;
-    } 
-    .aside-header{
+    }
+
+    .aside-header {
         width: 230px;
         height: 111vh;
     }
-    .logo-aside{
+
+    .logo-aside {
         width: 110px;
     }
-    .workspace{
+
+    .workspace {
         height: 70px;
         margin-top: 12%;
     }
+
     .workspace i {
         top: 155px;
         left: 180px;
     }
+
     .aside-nav {
         height: 150px;
     }
+
     .nav {
         height: 17px;
         padding: 6% 9% 6% 5%;
         display: flex;
         margin-top: 0.8%;
     }
-    .upload{
+
+    .upload {
         width: 280px;
         margin-top: 120%;
         height: 45px;
     }
-    .upload a{
+
+    .upload a {
         font-size: 14px;
     }
-    .search-bar{
+
+    .search-bar {
         height: 12vh;
     }
-    .buscador{
+
+    .buscador {
         height: 88%;
     }
+
     .buscador i {
         right: 330px;
         top: 36px;
     }
-    .logout{
+
+    .logout {
         width: 160px;
         height: 60px;
         top: 70px;
     }
- }
+}
 
- @media all and (min-width: 960px) and (max-width: 1199px) {
-    .main-button{
+@media all and (min-width: 960px) and (max-width: 1199px) {
+    .main-button {
         border-bottom: 3.8px solid rgb(148, 138, 243);
-        border-right:3.8px solid rgb(148, 138, 243);
-        border-left:3.8px solid rgb(148, 138, 243);
-        border-top:3.8px solid rgb(148, 138, 243);
+        border-right: 3.8px solid rgb(148, 138, 243);
+        border-left: 3.8px solid rgb(148, 138, 243);
+        border-top: 3.8px solid rgb(148, 138, 243);
     }
+
     .fa-arrow-right {
         margin-left: 9px;
         font-size: 14px;
     }
-    .main-button p{
+
+    .main-button p {
         font-size: 14.8px;
     }
-    .logo-aside{
+
+    .logo-aside {
         width: 110px;
     }
-    .aside-header{
+
+    .aside-header {
         width: 220px;
         height: 65vh;
     }
-    .workspace{
+
+    .workspace {
         width: 175px;
         height: 65px;
         margin-top: 12%;
     }
+
     .workspace i {
         top: 150px;
         left: 175px;
     }
+
     .aside-nav {
         height: 140px;
         margin-top: 10%;
         margin-left: 2%;
     }
+
     .nav {
         height: 17px;
         padding: 6% 9% 6% 5%;
         display: flex;
         margin-top: 0.8%;
     }
-    .upload{
+
+    .upload {
         width: 280px;
         margin-top: 200%;
         height: 45px;
     }
-    .upload a{
+
+    .upload a {
         font-size: 14px;
     }
-    .search-bar{
+
+    .search-bar {
         height: 7vh;
     }
+
     .buscador i {
         right: 270px;
         top: 46px;
     }
-    .logout{
+
+    .logout {
         width: 150px;
         height: 60px;
         top: 70px;
     }
-    .buscador{
+
+    .buscador {
         height: 60%;
     }
+
     .profile-picture img {
         width: 40px;
         height: 40px;
     }
 
 }
-@media all and (min-width: 769px) and (max-width: 959px) { 
-    .main-button{
+
+@media all and (min-width: 769px) and (max-width: 959px) {
+    .main-button {
         border-bottom: 3.3px solid rgb(148, 138, 243);
-        border-right:3.3px solid rgb(148, 138, 243);
-        border-left:3.3px solid rgb(148, 138, 243);
-        border-top:3.3px solid rgb(148, 138, 243);
+        border-right: 3.3px solid rgb(148, 138, 243);
+        border-left: 3.3px solid rgb(148, 138, 243);
+        border-top: 3.3px solid rgb(148, 138, 243);
     }
-    .main-button p{
+
+    .main-button p {
         font-size: 14px;
     }
+
     .fa-arrow-right {
         margin-left: 10px;
         font-size: 13px;
     }
-    footer{
+
+    footer {
         height: 10vh;
     }
-    .legal a{
+
+    .legal a {
         font-size: 15px;
     }
+
     .social_media {
         margin-left: 0%;
     }
-    .header2{
+
+    .header2 {
         height: 8vh;
     }
-    .btn{
+
+    .btn {
         width: 140px;
     }
-    .logo-aside{
+
+    .logo-aside {
         width: 110px;
     }
-    .aside-header{
+
+    .aside-header {
         width: 200px;
         height: 66vh;
     }
-    .workspace{
+
+    .workspace {
         width: 170px;
         height: 65px;
         margin-top: 14%;
     }
+
     .workspace i {
         top: 150px;
         left: 160px;
     }
+
     .aside-nav {
         height: 140px;
         margin-top: 10%;
         margin-left: 2%;
     }
+
     .nav {
         height: 17px;
         padding: 6% 9% 6% 5%;
         display: flex;
         margin-top: 0.8%;
     }
-    .upload{
+
+    .upload {
         width: 280px;
         margin-top: 180%;
         height: 45px;
     }
-    .upload a{
+
+    .upload a {
         font-size: 14px;
     }
-    .search-bar{
+
+    .search-bar {
         height: 10vh;
     }
+
     .buscador i {
         right: 165px;
         top: 46px;
     }
-    .buscador input{
+
+    .buscador input {
         width: 50%;
         margin-left: 38%;
     }
-    
-    .logout{
+
+    .logout {
         width: 100px;
         height: 40px;
         top: 70px;
         right: 70px;
         font-size: 14px;
     }
-    .buscador{
+
+    .buscador {
         height: 60%;
     }
+
     .profile-picture {
         margin-bottom: 5%;
     }
-    
+
     .profile-picture img {
         width: 40px;
         height: 40px;
     }
-    
+
 }
-@media all and (min-width: 599px) and (max-width: 768px){
-    .logo-aside{
+
+@media all and (min-width: 599px) and (max-width: 768px) {
+    .logo-aside {
         width: 110px;
     }
-    .aside-header{
+
+    .aside-header {
         width: 210px;
         height: 88vh;
     }
-    .workspace{
+
+    .workspace {
         width: 170px;
         height: 65px;
         margin-top: 14%;
     }
+
     .workspace i {
         top: 150px;
         left: 165px;
     }
-    .workspace p{
+
+    .workspace p {
         font-size: 14px;
     }
+
     .aside-nav {
         height: 140px;
         margin-top: 10%;
         margin-left: 2%;
     }
+
     .nav {
         height: 17px;
         padding: 6% 9% 6% 5%;
         display: flex;
         margin-top: 0.8%;
     }
-    .upload{
+
+    .upload {
         width: 280px;
         margin-top: 210%;
         height: 45px;
     }
-    .upload a{
+
+    .upload a {
         font-size: 14px;
     }
-    .search-bar{
+
+    .search-bar {
         height: 10vh;
     }
+
     .buscador i {
         right: 155px;
         top: 43px;
     }
-    .buscador input{
+
+    .buscador input {
         width: 50%;
         margin-left: 38%;
     }
-    
-    .logout{
+
+    .logout {
         width: 100px;
         height: 40px;
         top: 70px;
         right: 80px;
         font-size: 14px;
     }
-    .buscador{
+
+    .buscador {
         height: 60%;
     }
+
     .profile-picture {
         margin-bottom: 3%;
     }
-    
+
     .profile-picture img {
         width: 40px;
         height: 40px;
     }
 }
 
-@media all and (max-width: 479px) { 
-    .main-button{
+@media all and (max-width: 479px) {
+    .main-button {
         border-bottom: 3.3px solid rgb(148, 138, 243);
-        border-right:3.3px solid rgb(148, 138, 243);
-        border-left:3.3px solid rgb(148, 138, 243);
-        border-top:3.3px solid rgb(148, 138, 243);
+        border-right: 3.3px solid rgb(148, 138, 243);
+        border-left: 3.3px solid rgb(148, 138, 243);
+        border-top: 3.3px solid rgb(148, 138, 243);
     }
-    .main-button p{
+
+    .main-button p {
         font-size: 13px;
         margin-left: 2%;
     }
+
     .fa-arrow-right {
         margin-left: 8px;
         font-size: 13px;
     }
-    footer{
+
+    footer {
         height: 10vh;
         padding: 5%;
     }
+
     .footer_content {
         width: 100%;
     }
-    .legal{
+
+    .legal {
         width: 100%;
     }
-    .legal a{
+
+    .legal a {
         font-size: 11px;
     }
+
     .logo_footer img {
         display: none;
     }
+
     .social_media {
         width: 50%;
         margin-left: 0%;
     }
-    .social_media a{
-        width:25px;
+
+    .social_media a {
+        width: 25px;
         font-size: 15px;
-        height:25px;
+        height: 25px;
     }
-    .btn{
+
+    .btn {
         width: 123px;
     }
+
     .logo_header2 {
         width: 100px;
     }
-    .logo-aside{
-       display: none;
+
+    .logo-aside {
+        display: none;
     }
-    .logo-aside2{
+
+    .logo-aside2 {
         display: block;
         width: 40px;
         margin-top: 30%;
     }
-    .aside-header{
+
+    .aside-header {
         width: 60px;
         height: 100vh;
         justify-content: space-between;
     }
-    .workspace{
+
+    .workspace {
         display: none;
     }
+
     .aside-nav {
         height: 180px;
         margin-bottom: 860%;
         display: flex;
         justify-content: center;
     }
+
     .nav {
         height: 25px;
         padding: 0%;
         margin-top: 15%;
         margin-left: 30%;
     }
-    .nav i{
+
+    .nav i {
         font-size: 20px;
     }
-    .nav p{
+
+    .nav p {
         display: none;
     }
-    .count p{
+
+    .count p {
         display: none;
     }
-    .upload{
+
+    .upload {
         width: 60px;
         height: 85px;
         border-radius: 0px;
         margin-right: 0%;
         margin-top: 0%;
     }
-    .upload a{
+
+    .upload a {
         display: block;
         font-size: 12px;
     }
-    .upload p{
+
+    .upload p {
         margin-left: 0%;
         margin-bottom: 15%;
     }
-    .search-bar{
+
+    .search-bar {
         height: 10vh;
     }
+
     .buscador i {
-        right:100px;
+        right: 100px;
         top: 32px;
     }
-    .buscador input{
+
+    .buscador input {
         width: 56%;
         height: 35px;
         margin-left: 33%;
     }
-    
-    .logout{
+
+    .logout {
         width: 100px;
         height: 40px;
         top: 70px;
         right: 30px;
         font-size: 14px;
     }
-    .buscador{
+
+    .buscador {
         height: 60%;
     }
+
     .profile-picture {
         margin-bottom: 3%;
         margin-right: 5%;
     }
-    
+
     .profile-picture img {
         width: 35px;
         height: 35px;
     }
-}   
+}

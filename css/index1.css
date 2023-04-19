@@ -20,6 +20,9 @@ header {
     height: 45px;
     margin-top: 3%;
 }
+.aline i{
+    margin-left: 7%;
+}
 .logo {
     margin-right: 15%;
 }
@@ -31,7 +34,7 @@ header {
 .menu_desk {
     width: 50%;
     height: 38px;
-    margin: 35px;
+    margin: 48px;
     /* flex */
     display: flex;
     justify-content: flex-end
@@ -143,8 +146,8 @@ header {
 .btn-s1 {
     position: absolute;
     border: none;
-    top: 650px;
-    right: 100px;
+    top: 670px;
+    right: 120px;
     /* flex */
     display: flex;
     justify-content: center;
@@ -230,38 +233,40 @@ header {
 /* section 2 */
 .s2 {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: white;
-    padding: 5% 12%;
+    padding: 2.5% 12%;
     /* flex */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .s2_content {
-    margin-top: 2%;
-    width: 550px;
+    margin-top: 10%;
+    margin-left: 8%;
+    width:600px;
 }
 
 .s2_content h2 {
-    font-size: 49px;
+    font-size: 53px;
     text-shadow: 3px 12px 16px #9796998a;
     font-weight: 300;
+    /* text-align: center; */
     font-family: "circular";
     margin-bottom: 7%;
 }
 
 .s2_content p {
     font-size: 17px;
-    text-align: center;
     font-family: "Rubik";
     color: rgb(0, 0, 0);
-    margin-top: 5%;
+    margin-top: 3%;
+    /* text-align: center; */
     line-height: 1.57;
 }
 .s2 img{
-    width: 715px;
-    height: 575px;
+    width: 600px;
+    height: 535px;
     margin-top: 2%;
 }
 
@@ -401,7 +406,7 @@ header {
 .s5 {
     width: 100%;
     height: 175vh;
-    background-color:rgba(204, 185, 250, 0.13);
+    background-color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -411,15 +416,15 @@ header {
 
 .info {
     width: 100%;
-    height: 36vh;
-    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    background-color: white;
     text-align: center;
     font-family: "circular";
 }
 
 .info h4 {
     text-align: center;
-    margin-top: 3.5%;
+    margin-top: 5%;
     font-size: 65px;
     color: #10102c;
     text-shadow: 3px 12px 16px #8c8796cc;
@@ -462,12 +467,9 @@ header {
     height: 100%;
     border-top-right-radius: 5px;
     border-bottom-right-radius:5px ;
-    border-right: 10px solid rgb(214, 196, 255) ;
-    border-top: 10px solid rgb(214, 196, 255);
-    border-bottom: 10px solid rgb(214, 196, 255);
     transform: translateX(400%);
     transition: transform 1s ease;
-    background-color: #9195fc;
+    background-color: #efeff5;
 }
 
 .caja1 {
@@ -475,13 +477,9 @@ header {
     height: 100%;
     border-top-left-radius: 5px;
     border-bottom-left-radius:5px ;
-    border-left: 10px solid rgb(214, 196, 255) ;
-    border-top: 10px solid rgb(214, 196, 255);
-    border-bottom: 10px solid rgb(214, 196, 255);
-    /* box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3); */
     transform: translateX(-400%);
     transition: transform 1s ease;
-    background-color: #9195fc;
+    background-color: #efeff5;
 }
 
 .caja1 img {
@@ -519,7 +517,7 @@ header {
  /* section 6 */
 .s6 {
     width: 100%;
-    height: 87vh;
+    height: 81vh;
     background-color:white;
     display: flex;
     justify-content: center;
@@ -535,7 +533,7 @@ header {
     font-weight: 300;
     color: black;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3.5%;
 }
 
 .s6_content h3 {
@@ -612,7 +610,7 @@ header {
 
 .s7 {
     width: 100%;
-    height: 40vh;
+    height: 37vh;
     -webkit-box-shadow: -2px -15px 33px -1px rgba(211, 211, 211, 0.96);
     box-shadow: -2px -15px 33px -1px rgba(236, 231, 231, 0.96);
     background: #ffffff;
@@ -628,10 +626,10 @@ header {
     -webkit-box-shadow: 1px -1px 39px -1px rgba(188, 188, 188, 0.96);
     box-shadow: 1px -1px 39px -1px rgba(188, 188, 188, 0.96);
     width: 1050px;
-    height: 210px;
+    height: 180px;
     position: absolute;
     z-index: 2;
-    top: -80px;
+    top: -90px;
     border-radius: 70px;
     display: flex;
     justify-content: space-evenly;
@@ -643,14 +641,17 @@ header {
     color: black;
     font-family: "circular";
     font-size: 32px;
+    margin-top: 1%;
+    margin-left: 2%;
 }
 
 .btn4 {
     width: 200px;
     height: 60px;
+    margin-right: 2%;
 }
 .btn4 p{
-    font-size: 15px;
+    font-size: 18px;
     color: white;
 }
 @keyframes scroll {
@@ -666,7 +667,7 @@ header {
 .slider2 {
     background: white;
     height: 100px;
-    margin-top: 8%;
+    margin-top: 6.5%;
     overflow: hidden;
     position: relative;
     width: 90%;

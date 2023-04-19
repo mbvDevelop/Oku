@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/register1.css">
 </head>
 <link rel="icon" href="img/favicon(2).ico" type="image/x-icon">
 <script src="https://kit.fontawesome.com/2b35ff6b15.js" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
             </div>
             <div class="social_media">
                 <a href="#">
-                    <i class="fa-brandsfa-instagram"></i>
+                    <i class="fa-brands fa-instagram"></i>
                 </a>
                 <a href="#">
                     <i class="fab fa-twitter"></i>

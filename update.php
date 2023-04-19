@@ -1,7 +1,6 @@
 <?php 
+require 'session.php';
     session_start();
-    require 'conexion.php';
-
     $message = '';
         $sql = "UPDATE users SET name = :name, foto = :foto WHERE id = :id";
         $stmt = $conn->prepare($sql);

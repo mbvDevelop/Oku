@@ -1,6 +1,6 @@
 <?php
 
-$contraseña = "";
+$contraseña = "0000";
 $usuario = "root";
 $dB = "php_login";
 try{

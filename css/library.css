@@ -7,11 +7,11 @@
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    background-image: url(../img/library.PNG);
-    background-position:58% 55%;
+    /* background-image: url(../img/library.PNG); */
+    /* background-position:58% 55%;
     background-size: 500px;
     filter: opacity(0.3);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 .info{
     width: 40%;
@@ -20,4 +20,17 @@
     margin-top: 3%;
     margin-left: 20%;
     border-radius: 15px;
+}
+
+.upload2{
+    width: 200px;
+    height: 50px;
+    /* background-color: red; */
+ 
+}
+
+.upload2 button{
+    width: 100px;
+    height: 30px;
+    background-color: purple;
 }
